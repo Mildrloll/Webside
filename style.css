@@ -1,0 +1,55 @@
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    float: left;
+}
+
+.container1 {
+    position: relative;
+    width: 800px;
+    width: 800px;
+}
+
+.container img {
+    width: 250px;
+    height: 250px;
+}
+
+.container .btn {
+    position: absolute;
+    top: 75%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: brown;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.container .btn:hover {
+    background-color: black;
+}
+
+.text-block {
+    position: absolute;
+    width: 100%;
+    max-width: 500px;
+    bottom: 20%;
+    right: 20%;
+    background-color: white;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    opacity: 0.6;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto; 
+}
